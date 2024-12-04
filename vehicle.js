@@ -570,7 +570,7 @@ class Target extends Vehicle {
   show() {
     
     stroke(255);
-    strokeWeight(2);
+    strokeWeight(3);
     fill("#F063A4");
     push();
     translate(this.pos.x, this.pos.y);
