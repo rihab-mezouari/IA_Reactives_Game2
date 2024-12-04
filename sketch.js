@@ -97,6 +97,9 @@ function draw() {
     v.update();
     v.show();
   });
+  fill(0, 150); 
+  noStroke();
+  rect(0, 0, width, 40); 
    // Dessiner un menu
    fill(255);
    textSize(16);
